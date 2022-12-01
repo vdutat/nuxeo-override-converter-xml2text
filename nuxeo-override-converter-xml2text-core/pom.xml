@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.acme</groupId>
+    <artifactId>nuxeo-override-converter-xml2text-parent</artifactId>
+    <version>1.2.0</version>
+  </parent>
+  <artifactId>nuxeo-override-converter-xml2text-core</artifactId>
+  <name>Nuxeo override converter xml2text core</name>
+  <description></description>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.nuxeo.ecm.core</groupId>
+      <artifactId>nuxeo-core-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.core</groupId>
+      <artifactId>nuxeo-core-convert</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.core</groupId>
+      <artifactId>nuxeo-core-convert-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.platform</groupId>
+      <artifactId>nuxeo-platform-convert</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>

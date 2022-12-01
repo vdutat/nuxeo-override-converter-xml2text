@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component name="com.acme.customxml2textconverter">
+
+  <require>org.nuxeo.ecm.core.convert.plugins</require>
+  <extension target="org.nuxeo.ecm.core.convert.service.ConversionServiceImpl" point="converter">
+
+    <converter class="com.acme.ecm.core.convert.plugins.text.extractors.CustomXML2TextConverter" name="xml2text">
+      <sourceMimeType>text/xml</sourceMimeType>
+      <sourceMimeType>application/xml</sourceMimeType>
+      <destinationMimeType>text/plain</destinationMimeType>
+    </converter>
+
+  </extension>
+
+</component>
