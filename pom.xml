@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>10.10</version>
+    <version>8.10</version>
   </parent>
 
   <groupId>com.acme</groupId>
   <artifactId>nuxeo-override-converter-xml2text-parent</artifactId>
-  <version>1.2.0</version>
+  <version>1.0.0</version>
   <name>Nuxeo override converter xml2text parent</name>
   <description />
   <packaging>pom</packaging>
@@ -51,7 +51,7 @@
   <repositories>
     <repository>
       <id>public</id>
-      <url>http://maven.nuxeo.org/nexus/content/groups/public</url>
+      <url>http://maven-eu.nuxeo.org/nexus/content/groups/public</url>
       <releases>
         <enabled>true</enabled>
       </releases>

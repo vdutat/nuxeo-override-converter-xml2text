@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.acme</groupId>
     <artifactId>nuxeo-override-converter-xml2text-parent</artifactId>
-    <version>1.2.0</version>
+    <version>1.0.0</version>
   </parent>
   <artifactId>nuxeo-override-converter-xml2text-core</artifactId>
   <name>Nuxeo override converter xml2text core</name>
