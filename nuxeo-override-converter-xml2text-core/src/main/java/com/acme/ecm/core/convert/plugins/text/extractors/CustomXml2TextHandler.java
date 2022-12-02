@@ -37,7 +37,7 @@ public class CustomXml2TextHandler extends Xml2TextHandler {
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
-        log.warn("<characters> " + ch + " / " + start + " / " + length);
+        log.warn(String.format("<characters> %s / %d / %d", ch, start, length));
         // buf.append(ch, start, length); if (true) return;
         if (trim) {
             int i = start;
